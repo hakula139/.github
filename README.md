@@ -6,4 +6,4 @@ Default community health files for [hakula139](https://github.com/hakula139)'s r
 - [Bug report and feature request forms](.github/ISSUE_TEMPLATE)
 - [Security policy](SECURITY.md)
 
-A repository overrides any file here by adding its own copy, and any file in its `.github/ISSUE_TEMPLATE/`, even a lone `config.yml`, replaces all the default forms. The forms apply the `bug` and `enhancement` labels, which must exist in the repository.
+A repository overrides any file here by adding its own copy, and any valid issue template or template config in its `.github/ISSUE_TEMPLATE/`, even a lone `config.yml`, replaces all the default forms. The forms apply the `bug` and `enhancement` labels, which must exist in the repository.
