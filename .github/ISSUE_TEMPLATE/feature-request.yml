@@ -6,7 +6,7 @@ body:
     id: problem
     attributes:
       label: Problem
-      description: What you are trying to do and what makes it blocked or awkward today.
+      description: What you are trying to do and what blocks it or makes it awkward today.
     validations:
       required: true
 

@@ -4,4 +4,4 @@
 
 ## Test plan
 
-<!-- Record relevant checks actually run and any verification limits. -->
+<!-- Record the relevant checks you actually ran and any verification limits. -->
