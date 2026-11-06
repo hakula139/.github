@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a crash, an error, or behavior that differs from the docs
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the existing issues first, and add a reaction to a matching one when you find it.
+
+        Redact tokens, API keys, and private paths from everything you paste below.
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Include the full error text, since text is easier to search than a screenshot.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest sequence of commands or actions that triggers the problem.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release or commit you ran, and your platform if it might matter.
+      placeholder: v1.2.3 on macOS arm64
