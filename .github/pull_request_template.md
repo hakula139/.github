@@ -1,7 +1,7 @@
 ## Summary
 
-<!-- Describe the problem and resulting behavior. Add rationale or related PRs when needed, and link resolved issues with `Closes #N`. -->
+<!-- Describe the user-visible scope and resulting behavior, with the rationale reviewers need. Link resolved issues with `Closes #N` and related PRs when useful. Omit implementation history, duplicated boilerplate, generated-by attributions, secret values, private references, and local-only paths. -->
 
-## Test plan
+## Verification
 
-<!-- Record relevant checks actually run and any verification limits. -->
+<!-- List checks run on the final head and their results. Name what remains unverified, and give only the output reviewers need, without commit SHAs or incidental store paths. -->
